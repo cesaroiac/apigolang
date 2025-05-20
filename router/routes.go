@@ -1,7 +1,7 @@
 package router
 
 import (
-	"github.com/cesaroiac/apigolang.git/router/handler"
+	"github.com/cesaroiac/apigolang.git/handler"
 	"github.com/gin-gonic/gin"
 )
 
