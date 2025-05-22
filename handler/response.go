@@ -43,3 +43,8 @@ type ShowOpeningResponse struct {
 	Message string
 	Data    schemas.OpeningResponse `json:"data"`
 }
+
+type ListOpeningsResponse struct {
+	Message  string
+	Data    []schemas.OpeningResponse `json:"data"`
+}
